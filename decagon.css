@@ -1,0 +1,316 @@
+
+
+.intro {
+    
+    background: linear-gradient( to left, rgba(0, 0, 0, 0.808) 100%, rgba(0, 0, 0, 0.808) 100% ), url("img/img9.jpeg") center no-repeat;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    padding-top: 76px;
+    padding-bottom: 84px;
+    position: relative;
+    z-index: 4;
+}
+
+.landing-p {
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.landing-h1 {
+    font-size: 68px;
+}
+.landing-p a {
+    color: #2da24e;
+}
+.landing-p a:hover {
+    color: #b8d344;
+    text-decoration: underline;
+}
+
+.cont {
+    display: inline-block;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+    width: 1.2em;
+    height: 0.10em;
+    background-color: #2da24e;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg);
+    translate: (-9px, 6px);
+    transform: rotate(-45deg);
+    translate: (-9px, 6px);
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+    -webkit-transform: rotate(45deg);
+    translate: (-8px, -8px);
+    transform: rotate(45deg);
+    translate: (-8px, -8px);
+}
+
+.btn-outline-success:hover {
+    color: white !important;
+    background-color: #2da24e !important;
+    border-color: #2da24e !important ;
+}
+.btn-outline-success {
+    background-color: white !important;
+    color: #2da24e !important;
+    border-radius: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: none;
+    font-size: 0.9em;
+    letter-spacing: 0.4px;
+    border-color: white !important ;
+}
+
+.btn {
+    box-shadow: 0px 20px 24px 0px rgba(0, 11, 40, 0.1);
+    padding: 0.5rem 1.5rem;
+    transform: perspective(1px) translateZ(0);
+    transition: all 0.3s ease;
+}
+
+.btn[class*="btn-outline-"] {
+    padding: .5rem 1.5rem;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    -webkit-transition: .35s;
+    transition: .20s;
+}
+
+.navbar .nav-item .nav-link {
+    color: white !important;   
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #2da24e !important;   
+}
+
+.navbar-collapse {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    
+    letter-spacing: 0.4px;
+}
+.top-nav-collapse {
+    background-color: white;
+  }
+
+  .top-nav-collapse .navbar-collapse .nav-item .nav-link {
+    color: black !important;
+  }
+  .top-nav-collapse .navbar-collapse .nav-item .nav-link:hover {
+    color: #2da24e !important;
+  }
+
+  .top-nav-collapse .navbar-collapse .btn-outline-success {
+    border-color: #2da24e !important;
+  }
+.hhee {
+    max-width: 800px;
+    margin-right: 10px;
+  }
+
+.navbar-brand {
+    padding-top: 0;
+}
+
+.navbar-brand .immg1 {
+    height: 30px;
+    width: 120px;
+    display: block ;
+}
+.navbar-brand .immg2 {
+    height: 30px;
+    width: 120px;
+    display: none;
+}
+
+.top-nav-collapse .navbar-brand .immg1 {
+    display: none !important;
+  }
+.top-nav-collapse .navbar-brand .immg2 {
+    display: block !important;
+  }
+
+  .services, .process {
+      padding-top: 100px;
+      padding-bottom: 50px;
+  }
+
+  .service-img {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .service-img1 {
+      background-image: url("img/software.jpg");
+      
+  }
+
+  .service-img2 {
+    background-image: url("img/mobile-app.jpg");
+    
+}
+
+.service-img3 {
+    background-image: url("img/ux.jpg");
+    
+}
+
+.service-content {
+    padding: 34px;
+    position: absolute;
+    bottom: 0;
+}
+.img-cover {
+    background-color: rgba(0, 0, 0, 0.384);
+    position: relative;
+    height: 100%;
+}
+.img-cover:hover {
+    background-color: rgba(148, 37, 37, 0.767);
+    position: relative;
+    height: 100%;
+}
+.service-content:hover {
+    bottom: 30px;
+}
+.process-img img {
+    width: 100%;
+}
+
+  
+
+  /* header .fixed-top .navbar-brand img + img, .navbar a img {
+      display: block;
+  } */
+
+  /* header .fixed-top img, .navbar a img + img{
+    display: none;
+} */
+
+@media (min-width: 600px){
+    .navbar.scrolling-navbar {
+        
+        -webkit-transition: background 0.2s ease-in-out,padding 0.2s ease-in-out;
+        transition: background 0.2s ease-in-out,padding 0.2s ease-in-out;
+        }
+}
+
+  @media (max-width: 576px) {
+    .landing-h1 {
+      font-size: 50px; 
+    }
+  }
+
+  @media (max-width: 576px) {
+    .landing-p {
+      font-size: 16.8px; 
+      line-height: 30px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: transparent; 
+    }
+  }
+
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: transparent;
+    }
+  }
+
+@media (min-width: 600px) {
+.navbar.scrolling-navbar {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+}
+
+@media (max-width: 990px) {
+    .navbar-collapse {
+        padding-bottom: 20px;
+        }
+    }
+
+@media (max-width: 576px) {
+    .navbar .navbar-collapse {
+        background-color: #2da24e ;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .top-nav-collapse .navbar-collapse {
+        background-color: white ;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 576px){
+    .navbar .nav-item .nav-link {
+        color: white !important;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px){
+    .navbar .nav-item .nav-link {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 992px){
+    .btn-outline-success {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 576px){
+    .navbar .nav-item .nav-link, .btn-outline-success {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 576px){
+    .navbar .navbar-collapse {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 576px){
+    .service-img {
+        height: 320px;
+    }
+}
+
+@media (min-width: 768px){
+    .process-img img {
+        width: 90%;
+    }
+}
+

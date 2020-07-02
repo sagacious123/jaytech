@@ -1,0 +1,27 @@
+@media (max-width: 576px){
+.navbar-collapse {
+    background: #2da24e;
+    padding: 20px;
+}
+
+.menu > .nav-item.active a {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.header_area.navbar_fixed .navbar-collapse {
+    background: #fff;
+}
+
+.intro h1, .footer_area h1 {
+    font-size: 50px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+}
+
+.service_img {
+    height: 320px;
+}
+}
